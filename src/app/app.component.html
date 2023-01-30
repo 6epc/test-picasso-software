@@ -29,6 +29,5 @@
 
   <ng-container *ngIf="search.length && !(cashCompanies | filter:search:['domain', 'name'])?.length && cashCompanies.length !== 0">
     <p>Нет совпадений</p>
-    {{cashCompanies.length}}
   </ng-container>
 </div>
